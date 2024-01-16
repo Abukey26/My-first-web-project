@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        body {
+            background-color: rgb(158, 194, 194);
+            min-width: 460px;
+        }
+        h1 {
+            font-family: sans-serif;
+            color: #fb8500;
+            text-shadow: 5px 5px 15px blue;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #383131;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+            text-align: center;
+        }
+         i/* mg {
+            border-radius: 10px;
+        }
+        div.gallery {
+            border: 1px solid #ccc;
+            border-radius: 10px; 
+        }
+        div.gallery:hover {
+            border: 1px solid #777; */
+        }
+        div.gallery img {
+            width: auto;
+            height: auto;
+        }
+        div.disc {
+            padding: 15px;
+            text-align: center;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        .responsive {
+            padding: 0px 6px;
+            float: none
+    
+        }
+        @media only screen and(max-width: 500px){
+        .responsive {
+            max-width: 100%;
+        }
+    }
+        @media only screen and(max-width: 700px){
+        .responsive {
+            max-width: 49.99%;
+            margin: 6px 0;
+        }
+    }
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>This is fake Portfolio</h1>
+    <br>
+    <div class="clearfix">
+    <div class="responsive">
+        <div class="gallery">
+            <a href=""><img src="./img/netflix.jpg" alt=""></a>
+            <!-- <div class="disc">made netflix using node</div> -->
+            <a target="_blank" href="https://www.netflix.com"><img src="./img/microsoft.jpg" alt=""></a>
+            <a target="_blank" href=""><img src="./img/apple logo 3.jpg" alt=""></a>
+            <a target="_blank" href=""><img src="./img/linked in.jpg" alt=""></a>
+            <a target="_blank" href=""><img src="./img/insta 2.jpg" alt=""></a>
+            <a target="_blank" href=""><img src="./img/baidu.jpg" alt=""></a>
+            <a target="_blank" href=""><img src="./img/yahoo!.jpg" alt=""></a>
+            <a target="_blank" href=""><img src="./img/wy web.jpg" alt=""></a>
+        </div>
+    </div>
+    </div>
+    <p style="text-align: center; font-weight:bolder;">media query is not working properly</p>
+</body>
+</html>
